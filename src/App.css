@@ -1,0 +1,12 @@
+body {
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+
+form{
+  display: block;
+  align-items: center;
+  text-align: center;
+}
