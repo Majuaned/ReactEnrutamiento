@@ -14,10 +14,13 @@ export const Login = () => {
 <NavBar/>
 <main className="form-signin w-100 m-auto">
   <form>
+    {/* 
     <img className="mb-4" src={img} alt="Mujer linda" width="172" height="157"/>
+    
+    */}
     <img className="mb-4" src={img2} alt="Mujer linda2" width="172" height="157"/>
     
-    <h1 className="h3 mb-3 fw-normal">(Voz sexi) Hooolaaaa</h1>
+    <h1 className="h3 mb-3 fw-normal">Te logueas?</h1>
 
     <div className="form-floating">
       <input type="text" name='usuario' className=" form-control" id="floatingInput" placeholder="name@example.com" />
@@ -30,11 +33,11 @@ export const Login = () => {
 
     <div className="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"/> Remember me
+        <input type="checkbox" value="remember-me"/>¿Quieres que te recuerde?
       </label>
     </div>
-    <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-    <p className="mt-5 mb-3 text-muted">&copy; 20172022</p>
+    <button className="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
+    <p className="mt-5 mb-3 text-muted">Maldonado Juan Eduardo &copy; 2022</p>
 
   </form>
 </main>

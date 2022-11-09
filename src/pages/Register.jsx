@@ -1,4 +1,5 @@
 import React from 'react'
+import './Register.css'
 import { NavBar } from '../ui/NavBar';
 
 // Diseñar el formulario de inicio de sesión y programar los eventos de formulario
@@ -27,8 +28,8 @@ export const Register = () => {
             <label htmlFor="passwordConfirm" className="form-label">Confirmar Contraseña</label>
             <input type="password" className="form-control" id="passwordConfirm" placeholder="Confirme contraseña" />
           </div>
-          {/*<button type="submit" class="btn btn-primary">Submit</button>*/}
-          <div className="alert alert-primary" role="alert" id="alertRegister" hidden />
+          <button type="submit" class="btn btn-primary">Enviar Registro</button>
+          {/* <div className="alert alert-primary" role="alert" id="alertRegister"  /> */}
         </form>
       </div>
     </>

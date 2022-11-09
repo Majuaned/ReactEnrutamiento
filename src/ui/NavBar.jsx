@@ -7,9 +7,7 @@ export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" to="/">
-          Navbar
-        </NavLink>
+
         <button
           className="navbar-toggler"
           type="button"
