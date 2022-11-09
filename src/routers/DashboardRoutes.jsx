@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import { TodosScreen } from "../pages/TodosScreen"
 import { NavBar } from "../ui/NavBar"
 
 export const DashboardRoutes = () => {
@@ -6,9 +7,7 @@ export const DashboardRoutes = () => {
     <>
       <NavBar />
       <Routes>
-        <Route path="" element={ } />
-        <Route path="" element={ } />
-        <Route path="" element={ } />
+        <Route path="/todos" element={ <TodosScreen/> } />
       </Routes>
     </>
   )

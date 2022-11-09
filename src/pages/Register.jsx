@@ -1,9 +1,12 @@
 import React from 'react'
+import { NavBar } from '../ui/NavBar';
+
 // Diseñar el formulario de inicio de sesión y programar los eventos de formulario
 // Como así también el envío de los datos al servidor
 export const Register = () => {
   return (
-    //<div>que onda</div>
+    <>
+    <NavBar/>
     <div className="modal-body">
         <form className='form-control p-10 d-block'>
           <label htmlFor=""><h1>Registro de Usuario</h1></label>
@@ -28,5 +31,6 @@ export const Register = () => {
           <div className="alert alert-primary" role="alert" id="alertRegister" hidden />
         </form>
       </div>
+    </>
   )
 }
